@@ -1,0 +1,54 @@
+/*la carte n'est pas lue par Chrome*/
+
+body {
+font-size: 96%;
+}
+a{
+  font-size: 1rem;
+}
+.map{
+position: relative;
+max-width: 100%;
+}
+
+
+.mapimage {
+max-width:60%;
+float:left;
+}
+
+
+.mapimage path {
+  stroke:#fff;
+  stroke-width:1px;
+  fill:#CCA64A;
+  transition: fill 0.3s;
+}
+
+
+.maplist {
+  float:right;
+  width:50%;
+}
+
+
+
+.mapimage path:hover {
+  stroke:#fff;
+  stroke-width:1px;
+   fill: #78612C;
+  transition: fill 0.3s;
+}
+
+
+/*LISTE REGIONS*/
+
+ul{
+  list-style-type: none;
+}
+
+ul li a{
+text-decoration: none;
+color:#CCA64A;
+font:normal 0.8em "Trebuchet MS",Arial,sans-serif;
+}
